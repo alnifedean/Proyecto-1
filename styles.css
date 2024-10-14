@@ -1,0 +1,27 @@
+body{
+    padding: 2rem;
+}
+
+.nav-container{
+    justify-content: end;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.heroimage-image{
+    width: 90vw;
+}
+
+.article-text{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.article-text-container{
+    width: 60vw;
+}
