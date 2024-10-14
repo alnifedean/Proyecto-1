@@ -8,12 +8,12 @@ body{
 
 .image-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 
-.heroimage-image{
-    width: 90vw;
+.image-container-alone{
+    width: 100%;
 }
 
 .article-text{
@@ -24,4 +24,8 @@ body{
 
 .article-text-container{
     width: 60vw;
+}
+
+.main-images{ 
+    width: 49%;
 }
