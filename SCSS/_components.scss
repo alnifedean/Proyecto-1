@@ -1,0 +1,11 @@
+.card-container{
+    @include card-container
+}
+
+.card-item{
+    @include card-base
+}
+
+.card-item img{
+    @include card-image
+}

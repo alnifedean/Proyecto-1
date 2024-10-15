@@ -2,4 +2,15 @@
     background-color: $primary-color;
     padding: $card-padding;
     border-radius: $card-border-radius;
+    margin: $card-margin;
+}
+
+@mixin card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin card-image {
+    width: $card-image-width;
+    margin-bottom: $card-image-margin-b;
 }
