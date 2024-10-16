@@ -3,7 +3,14 @@
 }
 
 .card-item{
-    @include card-base
+    @include card-base;
+    text-decoration: none;
+    color: #000;
+}
+
+.card-item:hover{
+    background-color: #ddda;
+    cursor: pointer;
 }
 
 .card-item img{
